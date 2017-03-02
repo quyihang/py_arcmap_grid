@@ -2,7 +2,7 @@ import urllib2
 import json
 
 def dri_bik_wal_(o, d, method):
-    output = open(method + '.csv', 'w')
+    output = open('../out/' + method + '.csv', 'w')
     result = []
     for opt in o:
         line = []
